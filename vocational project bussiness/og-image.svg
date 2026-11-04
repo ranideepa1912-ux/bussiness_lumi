@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F0F1A"/>
+      <stop offset="60%" stop-color="#15102B"/>
+      <stop offset="100%" stop-color="#0B1A22"/>
+    </linearGradient>
+    <linearGradient id="og-mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="og-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="og-glow1" cx="0.2" cy="0.1" r="0.6">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="og-glow2" cx="0.9" cy="0.9" r="0.5">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect width="1200" height="630" fill="url(#og-glow1)"/>
+  <rect width="1200" height="630" fill="url(#og-glow2)"/>
+  <!-- grid pattern -->
+  <g stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1">
+    <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200"/>
+    <path d="M100 0 V630 M200 0 V630 M300 0 V630 M400 0 V630 M500 0 V630 M600 0 V630 M700 0 V630 M800 0 V630 M900 0 V630 M1000 0 V630 M1100 0 V630"/>
+  </g>
+  <!-- Logo mark -->
+  <g transform="translate(100, 100)">
+    <rect width="80" height="80" rx="20" fill="url(#og-mark)"/>
+    <path d="M26 24 L26 56 L52 56 L52 48 L34 48 L34 24 Z" fill="#FFFFFF"/>
+    <circle cx="52" cy="28" r="6" fill="#FFFFFF"/>
+  </g>
+  <text x="200" y="158" font-family="Inter, -apple-system, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">Lumi</text>
+  <!-- Headline -->
+  <text x="100" y="320" font-family="Inter, -apple-system, sans-serif" font-size="76" font-weight="800" fill="url(#og-text)" letter-spacing="-2">Your AI study buddy.</text>
+  <text x="100" y="395" font-family="Inter, -apple-system, sans-serif" font-size="32" font-weight="500" fill="#94A3B8">Turn notes into flashcards, quizzes, and summaries.</text>
+  <text x="100" y="445" font-family="Inter, -apple-system, sans-serif" font-size="32" font-weight="500" fill="#94A3B8">Built for university students.</text>
+  <!-- Tags -->
+  <g transform="translate(100, 510)">
+    <rect width="180" height="44" rx="22" fill="#A855F7" fill-opacity="0.15" stroke="#A855F7" stroke-opacity="0.4"/>
+    <text x="90" y="29" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#C084FC" text-anchor="middle">AI Flashcards</text>
+  </g>
+  <g transform="translate(300, 510)">
+    <rect width="160" height="44" rx="22" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="80" y="29" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#22D3EE" text-anchor="middle">Smart Quizzes</text>
+  </g>
+  <g transform="translate(480, 510)">
+    <rect width="200" height="44" rx="22" fill="#EC4899" fill-opacity="0.15" stroke="#EC4899" stroke-opacity="0.4"/>
+    <text x="100" y="29" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#F0ABFC" text-anchor="middle">Spaced Repetition</text>
+  </g>
+</svg>
